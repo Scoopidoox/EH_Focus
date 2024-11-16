@@ -45,46 +45,39 @@ body {
     background-color: var(--background);
 }
 
+section {
+    padding-top: 3rem;
+}
+
 .cardContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-right: 17rem;
-    gap: -30rem;
+    gap: 11rem;
+    margin-left: 1rem;
+    margin-right: 10rem;
 }
 
-body .info img {
+.cardContainer a {
+    position: relative;
+}
+
+.cardContainer a img {
     width: 345px;
     height: 230px;
-    position: relative;
-    margin-left: 10rem;
-    margin-top: 6rem;
     border-radius: 2%;
     box-shadow: 3px 3px 3px var(--accent-foreground);
 }
 
-body .info2 img {
-    width: 350px;
-    height: 230px;
-    position: relative;
-    margin-left: 10rem;
-    margin-top: 6rem;
-    border-radius: 2%;
-    box-shadow: 3px 3px 3px var(--accent-foreground);
-}
+.cardContainer a div {
+    position: absolute;
+    bottom: 0;
 
-body .info3 img {
-    width: 350px;
-    height: 230px;
-    position: relative;
-    margin-left: 10rem;
-    margin-top: 6rem;
-    border-radius: 2%;
-    box-shadow: 3px 3px 3px var(--accent-foreground);
-}
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
 
-.titleCard {
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
+    color: white;
 }
 
 .Article1 {
