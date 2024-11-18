@@ -6,7 +6,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
     color: var(--popover-foreground);
+    padding-bottom: 0,6rem;
 }
