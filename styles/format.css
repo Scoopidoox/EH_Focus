@@ -1,0 +1,54 @@
+.box-r img {
+    width: 500px;
+    height: 300px;
+    border-radius: 2%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+}
+
+.box-r a:active {
+    transform: scale(0.9);
+}
+
+.box-l img {
+    width: 500px;
+    height: 300px;
+    border-radius: 2%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+}
+
+.box-l a:active {
+    transform: scale(0.9);
+}
+
+.box {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.box-l {
+    display: flex;
+    gap: 5rem;
+
+    margin-left: 5rem;
+    margin-right: 30rem;
+}
+
+.box-r {
+    display: flex;
+    gap: 5rem;
+
+    margin-left: 30rem;
+    margin-right: 5rem;
+}
+
+.box-r .text h1 {
+    text-align: end;
+}
+
+.box-r .text h2 {
+    text-align: end;
+}

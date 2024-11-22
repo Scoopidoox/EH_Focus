@@ -1,6 +1,6 @@
 header {
     background-color: var(--background);
-    box-shadow: 3px 3px 3px var(--accent-foreground);
+    border-bottom: 1px solid var(--muted-foreground);
 
     display: flex;
     flex-direction: row;
@@ -12,11 +12,13 @@ header {
 
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+
+    margin-bottom: 2rem;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
+    width: 60px;
+    height: 60px;
 }
 
 header .search {
@@ -26,14 +28,12 @@ header .search {
 
 header .search input {
     padding: 0.4rem;
-    border:hsl(from color h s l);
     border-radius: 5px;
     color: var(--popover-foreground);
 }
 
 header .search button {
     padding: 0.4rem;
-    border:hsl(from color h s l);
     background-color: var(--background);
     border-radius: 5px;
     color: var(--primary);
@@ -49,6 +49,7 @@ header nav ul {
 header nav ul li a {
     color: var(--popover-foreground);
     font-size: 1rem;
+    font-size: Josefin sans;
     text-decoration: none;
     transition: all 0.3s;
 }

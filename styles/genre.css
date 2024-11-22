@@ -1,0 +1,31 @@
+.titre_genres h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Josefin Sans;
+    margin-bottom: 3rem;
+}
+
+.cardContainerGenre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.cardContainerGenre a:active {
+    transform: scale(0.9);
+}
+
+.cardContainerGenre a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 2%;
+}
+
+.cardContainerGenre a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Josefin Sans;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
